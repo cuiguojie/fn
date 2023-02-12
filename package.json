@@ -1,6 +1,7 @@
 {
   "name": "@kanjianmusic/fn",
   "version": "0.1.0",
+  "description": "看见音乐公共函数库",
   "scripts": {
     "doc": "vitepress dev docs",
     "doc:build": "vitepress build docs",
@@ -49,5 +50,14 @@
         "@algolia/client-search"
       ]
     }
+  },
+  "bugs": {
+    "url": "https://github.com/SeeMusic/fn/issues"
+  },
+  "homepage": "https://github.com/SeeMusic/fn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeeMusic/fn.git"
   }
 }
