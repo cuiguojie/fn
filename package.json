@@ -5,7 +5,7 @@
   "scripts": {
     "doc": "vitepress dev docs",
     "doc:build": "vitepress build docs",
-    "build": "vite build && pnpm dts",
+    "build": "vitest run && vite build && pnpm dts",
     "dts": "dts-bundle-generator -o lib/index.d.ts ./packages/index.ts --no-check --project ./tsconfig.build.json",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
