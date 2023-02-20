@@ -4,6 +4,7 @@ import formatSeconds from './formatSeconds';
 import formatLrcTimeTag from './formatLrcTimeTag';
 import nl2br from './nl2br';
 import commaNumber from './commaNumber';
+import checkPassword from './checkPassword';
 // IMPORT_PLACEHOLDER--DO_NOT_REMOVE
 
 export {
@@ -13,5 +14,6 @@ export {
   nl2br,
   padLeadingZero,
   commaNumber,
+  checkPassword,
   // EXPORT_PLACEHOLDER--DO_NOT_REMOVE
 };
