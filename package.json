@@ -21,7 +21,7 @@
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.es.js",
-      "require": "./dist/index.cjs.js"
+      "require": "./lib/index.cjs.js"
     }
   },
   "engines": {
@@ -31,19 +31,19 @@
     "dayjs": "^1.11.7"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@vitest/coverage-c8": "^0.28.4",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@vitest/coverage-c8": "^0.31.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "dayjs": "^1.11.7",
-    "dts-bundle-generator": "^7.2.0",
+    "dts-bundle-generator": "^8.0.1",
     "husky": "^8.0.3",
     "plop": "^3.1.2",
-    "vite": "^4.0.4",
-    "vitepress": "1.0.0-alpha.45",
-    "vitest": "^0.28.4",
-    "vue": "^3.2.45"
+    "vite": "^4.3.8",
+    "vitepress": "1.0.0-beta.1",
+    "vitest": "^0.31.1",
+    "vue": "^3.3.4"
   },
   "config": {
     "commitizen": {
