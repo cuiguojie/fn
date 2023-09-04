@@ -7,7 +7,11 @@ import commaNumber from './commaNumber';
 import checkPassword from './checkPassword';
 import formatIsoDate from './formatIsoDate';
 import markSensitiveData from './markSensitiveData';
+import filterEmptyParams from './filterEmptyParams';
 // IMPORT_PLACEHOLDER--DO_NOT_REMOVE
+import checkPhoneNumber from './checkPhoneNumber';
+import checkEmail from './checkEmail';
+import objectIs from './objectIs';
 
 export {
   formatEmptyText,
@@ -18,6 +22,10 @@ export {
   commaNumber,
   checkPassword,
   formatIsoDate,
-  markSensitiveData
+  markSensitiveData,
+  filterEmptyParams,
   // EXPORT_PLACEHOLDER--DO_NOT_REMOVE
+  checkPhoneNumber,
+  checkEmail,
+  objectIs
 };
